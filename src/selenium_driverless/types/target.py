@@ -294,7 +294,7 @@ class Target:
                              timeout: float = None, execution_context_id: str = None,
                              unique_context: bool = None):
         """
-        exaple: script = "return elem.click()"
+        example: script = "return elem.click()"
         """
         if execution_context_id and unique_context:
             warnings.warn("got execution_context_id and unique_context=True, defaulting to execution_context_id")
@@ -318,7 +318,7 @@ class Target:
                                    timeout: float = None, execution_context_id: str = None,
                                    unique_context: bool = None):
         """
-        exaple: script = "return elem.click()"
+        example: script = "return elem.click()"
         """
         if execution_context_id and unique_context:
             warnings.warn("got execution_context_id and unique_context=True, defaulting to execution_context_id")
