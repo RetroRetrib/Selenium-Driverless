@@ -113,7 +113,6 @@ class Chrome:
                 "--user-data-dir=" + self._temp_dir + "/data_dir")
 
         self._options: ChromeOptions = options
-        self._is_remote = True
         self._is_remote = False
         self._started = False
 
