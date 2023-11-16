@@ -161,7 +161,7 @@ class JSRemoteObj:
                        timeout: float = 2, execution_context_id: str = None,
                        unique_context: bool = None):
         """
-        exaple: script = "return elem.click()"
+        example: script = "return elem.click()"
         """
         from selenium_driverless.types.webelement import WebElement
         exec_context = self.__context_id__

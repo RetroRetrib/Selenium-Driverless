@@ -216,7 +216,7 @@ class Context:
                              timeout: int = None, target_id: str = None, execution_context_id: str = None,
                              unique_context: bool = False):
         """
-        exaple: script = "return obj.click()"
+        example: script = "return obj.click()"
         """
         target = await self.get_target(target_id)
         return await target.execute_script(script, *args, max_depth=max_depth, serialization=serialization,
